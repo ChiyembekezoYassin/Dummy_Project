@@ -1,0 +1,29 @@
+h1{
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: blue;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    width: 20px;
+    padding: 20px;
+
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
