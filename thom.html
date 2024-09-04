@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      .container {
+        margin: 0;
+      }
+      .hedi {
+        width: 100vw;
+        border: none;
+        background-color: rgb(31, 144, 182);
+        text-align: center;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        margin: 0;
+        box-shadow: 5px 5px 5px rgb(95, 92, 92);
+      }
+      .cont {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+      }
+      .leftdiv,
+      .rightdiv {
+        margin: 5px;
+        height: 82vh;
+      }
+      .leftdiv {
+        background-color: rgb(31, 144, 182);
+        margin: 0;
+        margin-top: 5px;
+        margin-left: 1px;
+        box-shadow: 5px 5px 5px rgb(95, 92, 92);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="hedi">
+        <h1>Jonathan Thom</h1>
+      </header>
+      <div class="cont">
+        <div class="leftdiv">
+          <ul>
+            <li><a href="#">Bio</a></li>
+
+            <li><a href="#">Contacts</a></li>
+
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+        <div class="rightdiv"></div>
+      </div>
+    </div>
+  </body>
+</html>
